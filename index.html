@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spotify New Releases</title>
+    <link href="css/sp-bootstrap.min.css" rel="stylesheet" >
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/react-with-addons.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.0/JSXTransformer.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-static-top navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <span class="navbar-logo">Spotify</span>
+            <span class="navbar-title">New Releases</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="starter-template">
+        <h1>What's new on Spotify</h1>
+        <p class="lead">These are the new Releases on Spotify.</p>
+      </div>
+      <div id="contents"></div>
+    </div>
+
+    <div id="footer">
+      <p>This is a demo of the Spotify's Web API <a href="https://developer.spotify.com/web-api/get-list-new-releases/">New Releases endpoint</a> · <a href="https://github.com/JMPerez/spotify-new-releases-demo-react">Code on GitHub</a></p>
+    </div>
+    <script src="js/user.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/spotify-web-api.js"></script>
+    <script src="js/oauth-config.js"></script>
+    <script src="js/oauth-manager.js"></script>
+    <script type="text/jsx" src="js/login.jsx"></script>
+    <script type="text/jsx" src="js/app.jsx"></script>
+  </body>
+</html>
